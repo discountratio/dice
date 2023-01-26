@@ -1,0 +1,29 @@
+
+.dice-display{
+    border: 8px solid black;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 8px;;
+    padding: 16px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    background: linear-gradient(45deg, #f5f5f5, #e8e8e8);
+}
+.dice-cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+}
+.dice-row{
+    display: flex;
+}
+
+.circle{
+    border-radius: 50%;
+    background-color: #000;
+    color: transparent;
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
+        
+}
